@@ -55,8 +55,10 @@ div {
 }
 .content {
     padding: 0 0.938rem;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     min-width: 37.5rem;
+    width: 70%;
 }
 :focus {
     outline: none;
@@ -72,7 +74,7 @@ div {
     border-bottom: 1px solid #DDD;
     z-index: 9999;
 }
-.top-navigation > .content {
+.top-navigation  .content {
     height: 4.375rem;
 }
 .top-navigation .logo {
@@ -108,7 +110,7 @@ div {
     background-position: center bottom;
     background-repeat: no-repeat;
     height: 45.938rem;
-    background: cover;
+    background-size: cover;
     overflow: auto;
 }
 
@@ -204,4 +206,24 @@ div {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+}
+
+/**
+ * button
+ */
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
